@@ -4,7 +4,7 @@ SecuMart is a simple encryption/decryption concept with [cryto-js](https://crypt
 
 ![A process flow of AES between service and web app](/assets/sharedKeyCipher.drawio.png)
 
-A vue app implentation wih SecuMart - [2dStatistics][https://github.com/coffeenaut/2dstatistics]
+A vue app implentation wih SecuMart - [2dStatistics](https://github.com/coffeenaut/2dstatistics)
 
 ## Project setup
 ```
