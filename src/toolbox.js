@@ -7,5 +7,4 @@ const getNewHash = (hashme) => (crypto.SHA256(hashme).toString(crypto.enc.Hex))
 const generateToken = () => (getNewHash(generateRandomString(8)))
 function decrypt (encrypted){return crypto.AES.decrypt(encrypted, secret).toString(crypto.enc.Utf8)}
 function encrypt(rawData) {return crypto.AES.encrypt(rawData, secret).toString()}
-
 module.exports = {generateRandomString, generateToken, decrypt, encrypt}
